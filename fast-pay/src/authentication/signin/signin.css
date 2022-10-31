@@ -29,7 +29,7 @@
     padding:64px;
     display: flex;
     flex-direction: column;
-    border: 1px solid #000922;
+    border: 1px solid #044AFF;
 
 }
 
@@ -86,4 +86,19 @@ form >input{
     background:none;
     text-decoration: underline;
     cursor: pointer;
+}
+
+.signin__img{
+    width:576px;
+   
+}
+
+@media screen and (max-width: 1024px) {
+    .form__container{
+        flex-direction:column-reverse;
+    }
+    .signin__img{
+    margin-bottom: 48px;
+   
+}
 }
