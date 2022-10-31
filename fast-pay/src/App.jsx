@@ -1,6 +1,6 @@
 
-import Signin from './authentication/Signin'
-import Signup from './authentication/Signup'
+import Signin from './authentication/signin/Signin'
+import Signup from './authentication/signup/Signup'
 
 
 const App = () => {
