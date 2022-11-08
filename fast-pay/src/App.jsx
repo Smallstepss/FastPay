@@ -1,14 +1,24 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-import Signin from './authentication/signin/Signin'
-import Signup from './authentication/signup/Signup'
+
+import Authentication from "./components/Authentication"
+import AboutUs from "./pages/aboutUs/AboutUs"
+import ContactUs from "./pages/contactUs/ContactUs"
+import OurSolution from "./pages/ourSolution/OurSolution"
+import Resources from "./pages/resources/Resources"
+import Navbar from './components/Navbar'
 
 
 const App = () => {
   return (
-    <div>
-      <Signin />
-      <Signup/>
-      </div>
+    <BrowserRouter>
+      <Navbar/>
+      {/* <Authentication /> */}
+      <OurSolution />
+      <AboutUs />
+      <ContactUs />
+      <Resources/>
+      </BrowserRouter>
       
       
   )

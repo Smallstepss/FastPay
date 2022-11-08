@@ -1,8 +1,6 @@
-import SigninImg from '../../images/Group 72login-img.png'
-import './signin.css'
+import './authentication.css'
 
-
-const Signin = () => {
+const Authentication = () => {
   return (
     <container__signin-container>
       <div className="top__nav">
@@ -30,8 +28,7 @@ const Signin = () => {
       
 
     </container__signin-container>
-    
   )
 }
 
-export default Signin
+export default Authentication

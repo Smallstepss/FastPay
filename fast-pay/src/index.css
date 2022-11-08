@@ -15,10 +15,10 @@
 
 :root{
     --color-primary: #172A69;
-    --color-primary-variant: hsl(var(--primary-hue), 100%, 65%);
-    --color-secondary: #ffc056;
+    --color-primary-variant: #fff;
+    --color-secondary: #044AFF;
     --color-white: #ffff;
-    --color-primary-variant: #0F1C46;
+
 
     --container-width-lg: 85%;
     --container-width-md: 90%;
@@ -59,4 +59,9 @@ body{
     background-image: url(./images/Loginbackground.png);
     background-position: cover;
     scroll-behavior: smooth;
+}
+.container {
+    width: var(--container-width-lg);
+    max-width: 1920px;
+    margin-inline: auto;
 }

@@ -1,0 +1,38 @@
+.ourSolution{
+    height: 100vh;
+    background-image: url(../../images/Group\ 196hero-bg.png);
+    background-size: cover;
+    overflow-x: hidden;
+    
+}
+
+.ourSolution__text{
+    padding: 191px 224px;
+
+    
+}
+
+.ourSolution__text h1{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.ourSolution__text h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 36px;
+}
+
+.header__btn{
+    padding:16px 36px;
+    font-size: 20px;
+    font-weight:700;
+    background-color: #00A72E;
+    color: #fff;
+    border-radius: 8px;
+;
+}
