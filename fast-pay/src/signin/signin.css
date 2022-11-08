@@ -1,0 +1,120 @@
+container__signin-container{
+align-content: center;
+
+}
+
+.top__nav{
+    margin: 47px 120px 90px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+logo{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight:900;
+    color: #044AFF;
+}
+
+.top__nav-btn{
+    padding:16px 36px;
+    background-color: #044AFF;
+    color:white;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+.form__content{
+    text-align: left;
+    width:584px;
+    padding:64px;
+    display: inline-block;
+    background-color:#fff;
+    border: 1px solid #044AFF;
+
+}
+
+.form__content h2{
+    font-family: 'Poppins', sans-serif;
+   font-size:28px;
+   font-weight: 700;
+   margin-bottom:40px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+form >label{
+    font-size:1rem;
+    margin-bottom: 15px;
+
+}
+
+form >input{
+    width:100%;
+    font-size:1rem;
+    padding: 28px;
+    margin-bottom:32px;
+    border: 1px solid #000922;
+    border-radius: 8px;
+}
+
+.signin-btn{
+    background-color: #044AFF;
+    padding:18px 32px;
+    color: #fff;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.register-btn{
+    font-weight:500;
+    font-size: 16px;
+    color:#000922;
+    background:none;
+    margin-bottom: 28px;
+    cursor: pointer;
+}
+
+.forgot-password-btn{
+    font-weight:400;
+    font-size: 16px;
+    color:#000922;
+    background:none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1024px){
+ .top__nav{
+    flex-direction: column;
+     margin: 47px  50px;
+ }
+ .top__nav-btn{
+    padding:16px 18px;
+}
+ .form__content{
+    width:350px;
+    padding: 24px;
+ }
+ .form__content h2{
+   font-size: 24px;
+}
+form >input{
+    padding: 20px;
+}
+}
+    
+
