@@ -5,17 +5,18 @@ import './signin.css'
 const Signin = () => {
   return (
     <container__signin-container>
-      <div className="top-bar">
-        <h1>Fast Pay</h1>
+      <div className="top__nav">
+        <logo>FastPay</logo>
+        <button class='top__nav-btn'>Create Free Account</button>
       </div>
 
       
-      <div className="form__container">
+     
         <div className="form__content">
           <h2>Login to your account</h2>
         <form action="">
           <label htmlFor="Name">E-mail or Phone Number</label>
-          <input type="email/phone number" name="e-mail" id="" placeholder='John Doe' />
+          <input aria-label='Phone number, username, or email' name="username" id="" placeholder='John Doe' />
           <label htmlFor="pword" >Password</label>
           <input type="password" placeholder='********'/>
           
@@ -24,11 +25,7 @@ const Signin = () => {
           <button className='forgot-password-btn'>Forgot Password</button>
         </form>
         </div>
-        
-        <div className="signin__img">
-          <img src={SigninImg} alt="" />
-        </div>
-    </div>
+   
     
       
 

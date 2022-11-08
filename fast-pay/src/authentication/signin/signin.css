@@ -1,42 +1,51 @@
-.top-bar{
-    margin-top: 3rem;
-    width: 100%;
-    height: 99px;
-    background-color: #ffff;
-    filter: drop-shadow(0px 4px 12px rgba(4, 74, 255, 0.16));
-    text-align: center;
+container__signin-container{
+align-content: center;
 
 }
 
-.top-bar h1{
-    margin:0;
-    padding:0;
-    font-size: 3rem;
-    color: #000922;
-
-}
-.form__container{
-    height:fit-content;
-    padding: 160px 156px;
+.top__nav{
+    margin: 47px 120px 90px;
     display: flex;
     justify-content: space-between;
     text-align: center;
-    align-items: center;
-   
+
 }
 
+logo{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight:900;
+    color: #044AFF;
+}
+
+.top__nav-btn{
+    padding:16px 36px;
+    background-color: #044AFF;
+    color:white;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
 .form__content{
+    text-align: left;
+    width:584px;
     padding:64px;
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    background-color:#fff;
     border: 1px solid #044AFF;
 
 }
 
 .form__content h2{
-   font-size:24px;
-   font-weight: 500;
-   margin-bottom:72px;
+    font-family: 'Poppins', sans-serif;
+   font-size:28px;
+   font-weight: 700;
+   margin-bottom:40px;
 
 }
 
@@ -53,7 +62,7 @@ form >label{
 }
 
 form >input{
-    width:456px;
+    width:100%;
     font-size:1rem;
     padding: 28px;
     margin-bottom:32px;
@@ -88,17 +97,24 @@ form >input{
     cursor: pointer;
 }
 
-.signin__img{
-    width:576px;
-   
+@media screen and (max-width:1024px){
+ .top__nav{
+    flex-direction: column;
+     margin: 47px  50px;
+ }
+ .top__nav-btn{
+    padding:16px 18px;
 }
+ .form__content{
+    width:350px;
+    padding: 24px;
+ }
+ .form__content h2{
+   font-size: 24px;
+}
+form >input{
+    padding: 20px;
+}
+}
+    
 
-@media screen and (max-width: 1024px) {
-    .form__container{
-        flex-direction:column-reverse;
-    }
-    .signin__img{
-    margin-bottom: 48px;
-   
-}
-}
