@@ -36,6 +36,7 @@ container__signin-container{
         text-align: left;
         width:584px;
         padding:64px;
+        margin-bottom: 186px;
         display: inline-block;
         background-color:#fff;
         border: 1px solid #044AFF;
@@ -116,6 +117,7 @@ container__signin-container{
      .form__content{
         width:350px;
         padding: 24px;
+        margin-bottom: 186px;
      }
      .form__content h2{
        font-size: 24px;
@@ -143,5 +145,25 @@ container__signin-container{
         font-size: 16px;
         line-height: 24px;
     }
+    .form__content-SignUp{
+        text-align: left;
+        width:584px;
+        padding:64px;
+        margin-bottom: 150px;
+        display: inline-block;
+        background-color:#fff;
+        border: 1px solid #044AFF;
+    
+
+    }
+    @media screen and (max-width:1024px){
+        
+        .form__content-SignUp{
+           width:350px;
+           padding: 24px;
+           margin-bottom: 150px;
+        }
+       
+       }
     
     /* ======= END OF SIGNUP STYLES ====== */
