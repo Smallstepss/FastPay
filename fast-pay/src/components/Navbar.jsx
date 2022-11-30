@@ -16,7 +16,7 @@ const Navbar = () => {
                   {links.map(({ name, path }, index) => {
                       return (
                           <li>
-                              <NavLink to={path}>{name}</NavLink>
+                              <NavLink to={path} style={({ isActive }) => ({color: isActive ? '#044AFF' : '#ffff'})}>{name}</NavLink>
                           </li>
                       )
                   })}
