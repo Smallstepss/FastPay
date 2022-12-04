@@ -1,3 +1,4 @@
+
 nav {
     height: 115px;
     width: 100vw;
@@ -28,23 +29,24 @@ nav {
 
 }
 
-.nav__links {
+
+/*Navlinks color change for Homepage */
+
+.nav__linksHome {
     display: flex;  
     align-items: center;
-    color: var( --color-primary);
+    color: var(--color-primary-variant);
     font-weight: 600;   
     
 }
 
-.nav__links a {
-    color: var(--color-primary);
+.nav__linksHome a {
+    color:var(--color-primary-variant);
     transition: var(--transition);
     padding-right:50px;
 }
 
-
-
-.nav__links a:hover {
+.nav__linksHome a:hover {
     color:  #044AFF;
 }
 .nav__btn{
@@ -63,7 +65,9 @@ nav {
     padding: 10px 42px;
     border-radius: 4px;
 }
-
+.nav__btns-login:hover{
+    cursor:pointer;
+}
 .nav__btns-createAccnt {
     background: var(--color-secondary);
     font-weight: 700;
@@ -71,6 +75,9 @@ nav {
     color: var(--color-primary-variant);
     padding: 10px 42px;
     border-radius: 4px;
+}
+.nav__btns-createAccnt:hover{
+    cursor:pointer;
 }
 
 
@@ -87,7 +94,7 @@ nav {
     .nav_toggle-btn svg{
         color:var( --form-title);
     }
-    .nav__links{
+    .nav__linksHome {
         display:flex;
         flex-direction:column;  
         justify-content:center;     
@@ -98,14 +105,14 @@ nav {
         box-shadow:0 8px 32px 0 rgba(31,38,135,.37);
         border-radius:10px;
     }
-    .nav__links li{
+    .nav__linksHome li{
         display:block;
         height:4rem;
         width:100%;
         box-shadow:-2rem 2rem 5rem rgba(0,0,0,.4);    
         
     }
-.nav__links li a{
+.nav__linksHome li a{
     height:100%;
     width:100%;
     display:flex;
@@ -114,7 +121,7 @@ nav {
     
 }
 
-.nav__links li:hover{
+.nav__linksHome li:hover{
     background:var(--home-hero-2-color);    
 } 
 .show__nav{
@@ -128,104 +135,3 @@ nav {
 
 
 
-/*nav {
-    height: 115px;
-    width: 100vw;
-    background: none;
-    display: grid;
-    place-items: center;
-    position: fixed;
-    top:0;
-    left:0;
-    z-index: 99;
-}
-.nav_toggle-btn{
-    display:none; 
-}
-
-.nav__container {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-
-.logo{
-   font-size: 32px;
-   color:#044AFF;
-}
-.nav__links {
-    display: flex;
-    gap: 3.5rem;
-    align-items: center;
-    color: var(--color-primary-variant);
-    font-weight: 600;
-}
-.nav__links a {  
-    transition: var(--transition);
-}
-
-.nav__links a:hover {
-    color:  #044AFF;
-}
-  
-.active-nav  {
-    color: #044AFF;
-   
-}
-.inactive-nav{ 
-    color:var(--color-primary);
-}
-
-.inactive-nav-home{
-    color:#ffff;
-}
-
-.active-nav::after {
-    color: #141415;   
-}
-
-.nav__btn{
-    display: flex;
-    gap: 1.2rem;
-}
-
-.nav__btns-login{
-    background:  var(--color-secondary);
-    border: 2px solid var(--color-secondary);
-    font-weight: 700;
-    font-size: 1rem;
-    color: var(--color-primary-variant);
-    padding: 10px 42px;
-    border-radius: 4px;
-}
-.nav__btns-createAccnt {
-    background: var(--color-secondary);
-    font-weight: 700;
-    font-size: 1rem;
-    color: var(--color-primary-variant);
-    padding: 10px 42px;
-    border-radius: 4px;
-}
-
-*/
-
-/*MEDIA QUERIES (only for medium and small screens)*/
-/*
-
-@media screen and (max-width:1024px){
-    .nav_toggle-btn{
-        display:inline-block;
-        background:transparent;
-        font-size: 1.8rem;
-        cursor:pointer;
-       
-    }
-    .nav_toggle-btn svg{
-        color:var( --placeholder-color)
-    } 
-
-}
-
-*/

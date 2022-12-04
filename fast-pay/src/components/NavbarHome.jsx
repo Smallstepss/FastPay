@@ -1,13 +1,13 @@
 import { Link, NavLink } from 'react-router-dom'
 import {links} from '../data'
-import './navbar.css'
+import './navbarhome.css'
 import { GoThreeBars } from "react-icons/go";
 import { useState } from 'react';
 import {FaWindowClose} from "react-icons/fa";
 import CreateAcct from './CreateAcct.jsx'
 import LoginBtn from './LoginBtn.jsx'
 
-const Navbar = () => { 
+const NavbarHome = () => { 
 
     const[isNavbarShows,setNavbar] =useState(false);
 
@@ -20,7 +20,7 @@ const Navbar = () => {
                 </Link>
             </div>
           <div>
-              <ul className={`nav__links ${isNavbarShows ? 'show__nav' :'hide__nav'}`} >
+              <ul className={`nav__linksHome ${isNavbarShows ? 'show__nav' :'hide__nav'}`} >
                   {links.map(({ name, path }, index) => {
                       return (
                           <li>
@@ -43,4 +43,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default NavbarHome
