@@ -1,5 +1,6 @@
 import './ourSolution.css'
 import HeroImage from "../../images/Group 196hero-bg.png"
+import NavbarHome from '../../components/NavbarHome'
 
 const OurSolution = () => {
   return (
@@ -7,6 +8,7 @@ const OurSolution = () => {
     <main className='ourSolution'>
     <header className='ourSolution__hero'>
         <div className="ourSolution__text">
+           <NavbarHome />
           <h1>Send & Receive Money Globally.</h1>
           <h3>Make local and international payments, receive money swiftly, and manage multiple currencies on one account.</h3>
           <button className='header__btn'>Create Free Account</button>
