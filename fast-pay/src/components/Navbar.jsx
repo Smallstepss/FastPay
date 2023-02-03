@@ -4,8 +4,7 @@ import './navbar.css'
 import { GoThreeBars } from "react-icons/go";
 import { useState } from 'react';
 import {FaWindowClose} from "react-icons/fa";
-import CreateAcct from './CreateAcct.jsx'
-import LoginBtn from './LoginBtn.jsx'
+
 
 const Navbar = () => { 
 
@@ -23,22 +22,37 @@ const Navbar = () => {
               <ul className={`nav__links ${isNavbarShows ? 'show__nav' :'hide__nav'}`} >
                   {links.map(({ name, path }, index) => {
                       return (
+                          
                           <li>
                               <NavLink to={path} >{name}</NavLink>
+                              
                           </li>
                       )
                   })}
               </ul>
           </div>
-          <div className="nav__btn">
-              <LoginBtn />
-              <CreateAcct />
+          <div>
+          <ul  className={`nav__btn ${ isNavbarShows ? 'show__nav' : 'hide__nav'}`}>
+             <li> 
+                <Link to='/SignIn'>
+                  <button className='nav__btns-login'>Login</button>
+                </Link>
+              </li> 
+              <li>
+              <Link to='/SignUp'>
+                <button className='nav__btns-createAccnt'>Create Free Account</button> 
+              </Link>
+              </li>
+          </ul>
+            
           </div>
           <button className="nav_toggle-btn" onClick={()=>setNavbar(!isNavbarShows)}>
           {isNavbarShows? <FaWindowClose /> : <GoThreeBars/>}
-        </button>
+         </button>
 
         </div>
+        
+        
     </nav>
   )
 }

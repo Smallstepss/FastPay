@@ -5,7 +5,7 @@ const CreateAcct = () => {
   return (
     <div>
     <Link to='/SignUp'>
-      <button className='nav__btns-createAccnt'>Create Free Account</button> 
+      <button className='nav__btns-createAccnt-home'>Create Free Account</button> 
       </Link>
     </div>
   )

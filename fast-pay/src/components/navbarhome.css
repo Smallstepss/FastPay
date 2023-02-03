@@ -49,14 +49,15 @@ nav {
 .nav__linksHome a:hover {
     color:  #044AFF;
 }
-.nav__btn{
+.nav__btn-home{
     display: flex;
     gap: 1.2rem;
 }
 .active-nav{
     color:var(--color-secondary);
 }
-.nav__btns-login{
+
+.nav__btns-login-home{
     background:  var(--color-secondary);
     border: 2px solid var(--color-secondary);
     font-weight: 700;
@@ -65,20 +66,23 @@ nav {
     padding: 10px 42px;
     border-radius: 4px;
 }
-.nav__btns-login:hover{
+.nav__btns-login-home:hover{
     cursor:pointer;
 }
-.nav__btns-createAccnt {
+.nav__btns-createAccnt-home {
     background: var(--color-secondary);
     font-weight: 700;
     font-size: 1rem;
     color: var(--color-primary-variant);
     padding: 10px 42px;
     border-radius: 4px;
+
 }
-.nav__btns-createAccnt:hover{
+
+.nav__btns-createAccnt-home:hover{
     cursor:pointer;
 }
+
 
 
 /*MEDIA QUERIES (only for medium and small screens)*/
@@ -104,6 +108,51 @@ nav {
         background-color: var(--home-hero-color);
         box-shadow:0 8px 32px 0 rgba(31,38,135,.37);
         border-radius:10px;
+    }
+    .nav__btn-home{
+
+          flex-direction:column;
+        gap:0rem;
+        justify-content:center;     
+        position:absolute;
+        top:350%;
+        right:0px;        
+        background-color: var(--home-hero-color);
+        box-shadow:0 8px 32px 0 rgba(31,38,135,.37);
+        border-radius:10px;
+    }
+    .nav__btns-login-home{
+        background:  var(--home-hero-color);        
+        font-weight: 700;
+        font-size: 1rem;
+        color: var(--color-primary-variant);
+        border:none;
+        
+    }
+    .nav__btns-createAccnt-home {
+        background: var(--home-hero-color); 
+        font-weight: 700;
+        font-size: 1rem;
+        color: var(--color-primary-variant);      
+        
+    }
+    
+    .nav__btn-home li{
+        display:block;
+        height:4rem;
+        width:100%;
+        box-shadow:-2rem 2rem 5rem rgba(0,0,0,.4);
+    }
+    .nav__btn-home li button{
+        height:100%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    padding:1rem 2.5rem 1rem 3rem;
+
+    }
+    .nav__btn-home li:hover{
+        background:var(--home-hero-2-color);    
     }
     .nav__linksHome li{
         display:block;

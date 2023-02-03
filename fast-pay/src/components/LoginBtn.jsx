@@ -5,7 +5,7 @@ const LoginBtn = () => {
   return (
     <div>
     <Link to='/SignIn'>
-      <button className='nav__btns-login'>Login</button>
+      <button className='nav__btns-login-home'>Login</button>
       </Link>
     </div>
   )

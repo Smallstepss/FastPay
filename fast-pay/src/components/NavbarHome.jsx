@@ -30,9 +30,11 @@ const NavbarHome = () => {
                   })}
               </ul>
           </div>
-          <div className="nav__btn">
-              <LoginBtn />
-              <CreateAcct />
+          <div>
+          <ul  className={`nav__btn-home ${ isNavbarShows ? 'show__nav' : 'hide__nav'}`}>
+             <li> <LoginBtn /> </li> 
+              <li><CreateAcct /></li>
+          </ul>
           </div>
           <button className="nav_toggle-btn" onClick={()=>setNavbar(!isNavbarShows)}>
           {isNavbarShows? <FaWindowClose /> : <GoThreeBars/>}
