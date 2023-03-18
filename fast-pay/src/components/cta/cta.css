@@ -1,0 +1,76 @@
+.cta__container{
+    margin: 40px 58.5px;
+    background-color: #044AFF;
+    background-image: url(../../images/shapes.png);
+    background-size: cover;
+   overflow-x: hidden;
+   }
+   
+   .cta__container-content{
+       display:grid;
+       gap:26px;
+       grid-template-columns: 1fr 1fr;
+       margin: 79px 150px;
+       align-items: center;
+   
+   }
+   
+   .cta__container-content-col-text h1{
+       text-align:left;
+       color:#fff;
+       font-size: 50px;
+       font-weight:600;
+       line-height:60px;
+       margin-bottom: 29px;
+   }
+   
+   .cta__container-content-col-text h3{
+       text-align:left;
+       color:#fff;
+       font-size: 14px;
+       font-weight:700;
+       margin-bottom: 11px;
+   }
+   
+   .cta__store-icons{
+       display: flex;
+       gap: 1rem;
+   }
+   
+   /* ======Media query for small and medium screens======= */
+   @media screen and (max-width: 1024px) {
+   
+   .cta__container{
+    margin: 40px 20px;
+   }
+   
+   .cta__container-content{
+       display:grid;
+       gap:26px;
+       grid-template-columns: 1fr;
+       margin: 0;
+       padding: 40px 20px;
+       align-items: center;
+   
+   }
+   
+   .cta__container-content-col-text h1{
+   
+       font-size: 20px;
+       font-weight:600;
+       line-height:30px;
+   
+   }
+   .cta__container-content-col img{
+   width: 100%;
+   }
+   
+   .cta__container-content-col-text h3{
+       font-size: 12px;
+   }
+   
+   .cta__store-icons{
+       display: flex;
+       gap: 1rem;
+   }
+   }

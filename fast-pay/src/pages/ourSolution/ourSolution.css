@@ -1,6 +1,9 @@
+/* =====Hero section======= */
+
 .ourSolution__hero{
     height: 100vh;
-    background-image: url(../../images/Group\ 196hero-bg.png);
+    background-image: 
+    linear-gradient(rgba(21, 21, 21, 0.2),rgba(21, 21, 21, 0.6)),url(../../images/Group\ 196hero-bg.png);
     background-size: cover;
     overflow-x: hidden;
     
@@ -8,7 +11,6 @@
 
 .ourSolution__text{
     padding: 191px 224px;
-
     
 }
 
@@ -32,7 +34,371 @@
     font-size: 20px;
     font-weight:700;
     background-color: #00A72E;
+    border: 2px solid #00A72E;
     color: #fff;
     border-radius: 8px;
-;
+    transition: var(--transition);
+}
+
+.header__btn:hover{
+    background-color: #00a72f9b;
+    border: 2px solid #00A72E;
+}
+/* ======Media query for small and medium screens======= */
+@media screen and (max-width: 1024px) {
+    .ourSolution__hero{
+        height: 80vh;
+    }
+    
+    .ourSolution__text{
+    padding: 100px 20px;
+    
+    }
+
+    .ourSolution__text h1{
+    font-size: 32px;
+
+    }
+
+    .ourSolution__text h3{
+    font-size: 16px;
+
+}
+
+}
+
+/* ======End=========== */
+
+/* =====Accessing you money section======= */
+.oursolution-section1{
+padding: 80px 320px;
+}
+
+.oursolution-section1 h1, h4{
+margin-bottom:22px;
+}
+
+.oursolution__store a{
+padding-right: 1rem;
+}
+
+/* ======Media query for small and medium screens======= */
+@media screen and (max-width: 1024px) {
+    .oursolution-section1{
+        padding: 40px 20px 40px;
+    }
+    .oursolution-section1 h1, h4{
+        margin-bottom:22px;
+    }
+    .oursolution-section1 h1{
+        font-size:24px;
+    }
+    .oursolution-section1 h4{
+        font-size:16px;
+    }
+    .oursolution__store img{
+        width: 150px;
+    }
+}
+
+/* ===== End======= */
+
+/* =======Partners section (section 3)======= */
+.oursolution-section2{
+    padding: 80px 95px;
+    background-color: #fff;
+}
+
+.oursolution-section2 h3{
+   margin-bottom: 20px;
+}
+/* ======Media query for small and medium screens======= */
+@media screen and (max-width: 1024px) {
+    .oursolution-section2{
+    padding: 40px 20px;
+    
+    }
+    .oursolution-section2 h3{
+        margin-bottom: 24px;
+    }
+    .oursolution-section2 img{
+        width: 100%;
+    }
+}
+
+
+/* =======End Partners section (section 3)======= */
+
+/* ========== Section 4========= */
+.oursolution-section3{
+    padding: 80px 68px;
+    
+}
+
+.oursolution-section3 h2{
+    font-size: 32px;
+    margin-bottom:59px ;
+}
+
+.oursolution-section3-content{
+    /* height: 699px; */
+    text-align: center;
+    align-content: center;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    justify-content: space-between;
+    gap:30px;
+    
+}
+
+.oursolution-section3-content-col{
+text-align: left;
+align-content: center;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+.oursolution-section3-content-col-box{
+    padding: 75px 29px;
+    border: 1px solid #B1C7FF;
+    border-radius: 22px;
+    background-color:transparent;
+    transition: var(--transition);
+    
+}
+
+.oursolution-section3-content-col-box:hover{
+background-color: #fff;
+
+}
+
+.oursolution-section3-content-col-box h3{
+    margin-bottom: 20px;
+    font-size:24px;
+}
+
+.oursolution-section3-content-col-box p{
+    margin-bottom: 20px;
+    font-size:16px;
+    
+}
+
+
+.section3__action{
+align-items: center;
+
+}
+
+
+.section3__action a{
+font-size: 16px;
+font-weight: 500;
+}
+
+.section3__action span{
+width: 16px;
+margin-left: 1rem;
+}
+
+/* ======Media query for small and medium screens======= */
+@media screen and (max-width: 1024px) {
+    .oursolution-section3{
+    padding: 40px 20px;
+    }
+    .oursolution-section3 h2{
+    font-size: 24px;
+    margin-bottom:40px ;
+    }
+    .oursolution-section3-content{
+    flex-direction: column;
+    gap: 0;
+    }
+    .oursolution-section3-content-col{
+    flex-direction: column;
+ 
+}
+.oursolution-section3-content-col img{
+    width:100%;
+    margin-bottom: 40px;
+}
+    .oursolution-section3-content-col-box{
+    margin-bottom:40px; 
+    }
+
+}
+/* ========End of Payment tool============== */
+
+
+/* ==========Why choose FastPay ==================== */
+.oursolution__whyfastpay{
+    padding: 80px 198px;
+    margin-bottom: 100px;
+    background-color: #f5f8ff;
+}
+
+.oursolution__whyfastpay h1{
+margin-bottom: 80px;
+}
+
+.oursolution_whyfastpay-content{
+    text-align: left;
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 80px;
+}
+
+.oursolution_whyfastpay-content-item{
+    width:20%;
+}
+.oursolution_whyfastpay-text-img{
+    margin-bottom: 20px;
+}
+
+.oursolution_whyfastpay-content-title{
+    margin-bottom: 10px;
+}
+/* ======Media query for small and medium screens======= */
+@media screen and (max-width: 1024px) {
+  .oursolution__whyfastpay{
+    padding: 40px 0;
+    margin-bottom: 0;
+}
+
+.oursolution__whyfastpay h1{
+margin-bottom: 60px;
+}
+
+.oursolution_whyfastpay-content{
+    text-align: left;
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 20px;
+}
+
+.oursolution_whyfastpay-content-item{
+    width:20%;
+}
+.oursolution_whyfastpay-text-img{
+    margin-bottom: 20px;
+}
+
+.oursolution_whyfastpay-content-title{
+    margin-bottom: 10px;
+    font-size:14px;
+}
+.oursolution_whyfastpay-content-text{
+    font-size:12px;
+}
+
+}
+/* ======TESTIMONIALS========================= */
+
+.testimonials{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+    margin-left: auto;
+   
+}
+
+.testimonial-col1{
+    text-align: left;
+    margin-left: auto;
+}
+
+.testimonial-col1 img{
+    margin-bottom: 10px;
+}
+
+.testimonial-col2{
+    text-align: left;
+    margin-top:80px;
+    width: 80%;
+}
+
+.testimonial-col2 img{
+    margin-bottom: 20px;
+}
+
+.testimonials-para{
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.testimonials-rating{
+    color:blue;
+    margin-bottom: 10px;
+}
+
+.testimonial-col1 h3{
+    color:blue;
+}
+.testimonial-arrow{
+    text-align: left;
+    margin-top: 0;
+}
+.testimonial-arrow-small-screen {
+    display: none;
+}
+
+/* ======Media query for small and medium screens======= */
+@media screen and (max-width: 1024px) {
+.testimonials{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 45px;
+    padding: 40px 20px;
+   
+}
+
+.testimonial-col1{
+    text-align: left;
+    margin: 0;
+    
+}
+
+.testimonials h1{
+    font-size:20px;
+}
+.testimonial-col1 img{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.testimonial-col2{
+    text-align: left;
+    margin-top:0;
+    width: 100%;
+}
+
+.testimonial-col2 img{
+    margin-bottom: 20px;
+}
+
+.testimonials-para{
+    margin-bottom: 10px;
+    line-height: 2;
+}
+
+.testimonials-rating{
+    color:blue;
+    margin-bottom: 10px;
+}
+
+.testimonial-col1 h3{
+    color:blue;
+    font-size: 14px;
+}
+.testimonial-col1 h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.testimonial-arrow-small-screen {
+    display: block;
+}
+.testimonial-arrow-large-screen {
+    display: none;
+}
 }

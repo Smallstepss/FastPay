@@ -19,7 +19,7 @@ const SignIn = () => {
       <logo>FastPay</logo>
       </Link>       
         <Link to="/SignUp">
-        <button class='top__nav-btn'>Create Free Account</button>
+        <button className='top__nav-btn'>Create Free Account</button>
         </Link>
       </div>  
      
@@ -63,7 +63,7 @@ const handleSubmit=(e) => {
       <logo>FastPay</logo>
       </Link>  
         <Link to="/SignIn">
-        <button class='top__nav-btn'>Login to Account</button>
+        <button className='top__nav-btn'>Login to Account</button>
         </Link>
         
       </div>  

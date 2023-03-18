@@ -13,6 +13,7 @@ import Footer from "../../components/Footer/Footer.jsx";
 import LogoSection from "../../components/LogoSection.jsx";
 import ValuesSection from "../../components/ValuesSection.jsx";
 import Testimonial from "../../components/Testimonial.jsx";
+import CTA from '../../components/cta/Cta.jsx'
 
 
 const AboutUs = () => {
@@ -140,6 +141,8 @@ const AboutUs = () => {
       <ValuesSection />
 
      <Testimonial />
+
+     <CTA/>
 
       <Footer />
     </div>

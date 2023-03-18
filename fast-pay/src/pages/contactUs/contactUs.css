@@ -1,0 +1,75 @@
+
+.c-section{
+    position:relative;
+}
+.c-hero{
+    display:flex;
+    position: relative;
+}
+.c-hero--support{
+    display:block;
+    padding-bottom: 0px;
+    z-index: 10;
+}
+.c-container{
+    max-width:1920px;    
+    margin:0 95px;
+    position:relative;
+}
+
+.c-hero__body{
+    margin:0 auto;
+    padding:260px 0 80px;
+    width:100%;   
+    text-align: center;
+}
+.c-hero__heading{
+    max-width:517px;
+    text-align: center;
+    margin-inline:auto;
+}
+.c-contact{
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+}
+
+.c-head{
+font-weight: 700;
+font-size: 57px;
+line-height: 86px;
+color: #044AFF;
+
+}
+.c-para{
+
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+color: #000922;
+margin-bottom:80px;
+}
+
+.cards_contactCard{
+    background: #044AFF;
+    border-radius: 24px; 
+    padding: 50px 98px;
+    border:none;
+}
+.cards_contactCard p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 36px;
+color: #ffff;
+margin-top:0px;
+margin-bottom:16px;
+    display:block;
+}
+.c-grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:19px;
+}

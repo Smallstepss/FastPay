@@ -1,8 +1,8 @@
+/*import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom'
 import {links} from '../data'
 import './navbarhome.css'
 import { GoThreeBars } from "react-icons/go";
-import { useState } from 'react';
 import {FaWindowClose} from "react-icons/fa";
 import CreateAcct from './CreateAcct.jsx'
 import LoginBtn from './LoginBtn.jsx'
@@ -46,3 +46,4 @@ const NavbarHome = () => {
 }
 
 export default NavbarHome
+*/

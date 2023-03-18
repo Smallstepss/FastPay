@@ -73,6 +73,10 @@ body{
 
 /*****Added by Reshma********/
 
+article,aside,footer,header,nav,section{
+    display:block;
+}
+
 @media screen and (max-width:980px) /***changed from max-width:500px ***/
 {
     .container{

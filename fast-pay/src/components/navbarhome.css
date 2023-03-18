@@ -1,4 +1,4 @@
-
+/* Reshma z navbarHome code
 nav {
     height: 115px;
     width: 100vw;
@@ -32,7 +32,7 @@ nav {
 
 /*Navlinks color change for Homepage */
 
-.nav__linksHome {
+/*.nav__linksHome {
     display: flex;  
     align-items: center;
     color: var(--color-primary-variant);
@@ -88,7 +88,7 @@ nav {
 /*MEDIA QUERIES (only for medium and small screens)*/
 
 
-@media screen and (max-width:1024px){
+/*@media screen and (max-width:1024px){
     .nav_toggle-btn{
         display:inline-block;
         background:transparent;
@@ -181,6 +181,7 @@ nav {
 }
 
 }
+*/
 
 
 

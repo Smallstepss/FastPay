@@ -1,3 +1,10 @@
+
+import { AiFillMail } from 'react-icons/ai'
+import { HiLocationMarker } from 'react-icons/hi'
+import { FiPhoneCall } from 'react-icons/fi'
+
+
+
 export const links = [
   {
     id: 1,
@@ -42,3 +49,23 @@ export const ValueCards = [
             unnecessary restrictions`
   }
 ];
+
+export const contactCards=[
+  {
+    id:1,
+    icon:< FiPhoneCall style={{color:'white',width:'50px',height:'50px',fill:'white',marginBottom:'24px'}} />,
+    data:`(208)565-0985`,
+     info: `(905)565-0128`
+  },
+  {id:2,
+    icon:< AiFillMail style={{color:'white',width:'50px',height:'50px',marginBottom:'24px'}}/>,
+    data:`Info@fastpay.com`,
+    
+  },
+  {id:3,
+    icon:< HiLocationMarker style={{color:'white',width:'50px',height:'50px',marginBottom:'24px'}}/>,
+    data:`Allen Avenue, Ikeja, Lagos`,
+   
+  }
+]
+
