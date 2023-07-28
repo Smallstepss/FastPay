@@ -20,8 +20,7 @@ function cardsOfValues({id,title,info}) {
       <section className="section5 values_section">
       <div className="section5_head">
       <h1 >Our Values</h1>
-      </div>
-     
+      </div>     
 
         <div className="container values_container">        
     

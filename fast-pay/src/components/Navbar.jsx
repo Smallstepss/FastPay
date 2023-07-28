@@ -32,13 +32,13 @@ const Navbar = () => {
                       )
                   })}
                   <div className="nav__btn">
-                  <li>
+                  <li className="nav__login">
                   <Link to='/SignIn' className='nav__btns-login'>
                   Login
                   </Link>
                   
                   </li>
-                  <li>
+                  <li className="nav__signUp">
                   <Link to='/SignUp' className='nav__btns-createAccnt'>
                   Create Free Account
                   </Link>

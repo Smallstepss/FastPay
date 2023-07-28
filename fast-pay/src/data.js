@@ -5,6 +5,7 @@ import { FiPhoneCall } from 'react-icons/fi'
 
 
 
+
 export const links = [
   {
     id: 1,
@@ -68,4 +69,27 @@ export const contactCards=[
    
   }
 ]
+
+export const complaintCards=[
+  {id:1,
+    head:"Complaints and Issue.",
+    data:`Our 24/7 support team is ready to help`,
+    link:`Contact support`
+  
+
+  },
+  {id:2,
+    head:"Partner with us",
+    data:`Want to partner with FastPay?`,
+    link:`Contact our team`
+    
+
+  },
+  {id:3,
+    head:"Media and PR",
+    data:`Reach out to our media and marketing team.`,
+    link:`Contact Media team`
+  }
+]
+
 

@@ -131,7 +131,7 @@ const OurSolution = () => {
           <div className='oursolution_whyfastpay-content-item'>
             <img src={security} alt="currency" className='oursolution_whyfastpay-text-img'/>
             <h3 className='oursolution_whyfastpay-content-title'>Transaction security</h3>
-            <p className='oursolution_whyfastpay-content-text'>We provide differnt options to ensure safety of transactions, includig 2FA</p>
+            <p className='oursolution_whyfastpay-content-text'>We provide different options to ensure safety of transactions, includig 2FA</p>
           </div>
           <div className='oursolution_whyfastpay-content-item'>
             <img src={duplicate} alt="currency" className='oursolution_whyfastpay-text-img'/>
