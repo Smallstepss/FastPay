@@ -13,12 +13,11 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
+"scripts": {
     "start":  "node index.js",
-    "build": "react-scripts build",
-    "test": "react-scripts test"
-    
-  },
+      "build": "echo \"No build specified\" && exit 1",
+      "test": "echo \"No test specified\" && exit 1"
+  } ,
   "eslintConfig": {
     "extends": [
       "react-app",
