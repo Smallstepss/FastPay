@@ -55,6 +55,7 @@ margin-bottom: 80px;
 }
 
 /* ======Media query for small and medium screens======= */
+
 @media screen and (max-width: 1024px) {
 .footer__container{
     padding: 80px 20px;

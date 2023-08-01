@@ -30,8 +30,7 @@
 font-weight: 900;
 font-size: 64px;
 line-height: 120%;
-/* identical to box height, or 77px */
-/* Color/Primary/Blue/blue-500 */
+
 color: #044AFF;
 }
 .story_section_content>p{
@@ -44,6 +43,7 @@ color: #000000;
 
 
 /******LATEST**********/
+
 *{
     box-sizing:border-box;
 }
@@ -55,6 +55,7 @@ color: #000000;
 .gallery{
     display:grid;   
     aspect-ratio: 612/703;
+
    /* grid-template-columns: 50px 169px 149px 63px 181px;
     
     grid-template-rows: 176px 105px 72px 107px 32px 211px;*/
@@ -129,6 +130,7 @@ object-fit: cover;
 }
 
 /****In small screens****/
+
 @media screen and (max-width:1320px) { 
  
 .gallery{
@@ -146,11 +148,13 @@ aspect-ratio:547.525/657.625;
         max-width:550px;
         margin-top: 100px;
     }
+
     /*
     .gallery{
         max-height:660px;
     }
     */
+
 }   
 @media screen and (max-width:1240px) {
     .gallery-wrapper{
@@ -202,12 +206,10 @@ div.section2{
 @media screen and (max-width:600px) {
     .section2 h1{
         font-weight:bold;
-       /* font-size:36px;*/
-       /* padding:20px 24px 0px 24px;*/
+      
     }
     .section2 p{
-       /* font-size: 26px;*/
-      /*  padding:10px 50px 0px 50px;*/
+      
         overflow:hidden;
         line-height: 28px;
     }
@@ -225,8 +227,9 @@ div.section2{
         }
 }
 
-/*section2 At small and medium screens*/
-/*
+/*section2 At small and medium screens
+
+
 
 @media only screen and (max-width:1320px){
     .section2 >h1 {        
@@ -256,17 +259,18 @@ div.section2{
               
       }
       .section2> p {         
-           /* font-size:16px; */
-           /*
+            font-size:16px; 
+           
            font-size:58%;
             padding-left: 50px;
             padding-right: 50px;
              
         }
 }
-*/
+
 
 */
+
 /*****************section3****************/
 .w_section
 {
@@ -345,9 +349,7 @@ color: #000000;
        
     }
 }
-*/
 
-/*
 .grid{
     display:grid;
     grid-template-columns: 1fr 1fr ;
@@ -628,6 +630,7 @@ letter-spacing: -0.02em;
     margin-top: 43px;
 }
 .testi_right{
+    
     /*height:600px;*/
     
 }

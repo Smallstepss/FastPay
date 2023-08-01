@@ -53,7 +53,7 @@
 
 }
 
-/* ====General Styles ======== */
+
 body{
     font-family: 'Poppins', sans-serif;
     text-align:center;
@@ -67,21 +67,22 @@ body{
     width: var(--container-width-lg);
     max-width: 1920px;
     margin-inline: auto;
-    position:relative; /**Added by reshma**/
+    position:relative;
 }
 
 
-/*****Added by Reshma********/
+
 
 article,aside,footer,header,nav,section{
     display:block;
 }
 
-@media screen and (max-width:980px) /***changed from max-width:500px ***/
+
+@media screen and (max-width:980px) 
 {
     .container{
         width:var( --container-width-sm);
-        padding:0 16px; /**changed from padding:0 20px**/
+        padding:0 16px; 
     }
 }
 section{

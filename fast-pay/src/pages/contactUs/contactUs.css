@@ -90,7 +90,7 @@ margin-bottom:16px;
   
 }
 
-/**************SECTION2*******************/
+/* *************SECTION2****************** */
 
 .c-section2{
     background-color: #F5F8FF;
@@ -233,6 +233,7 @@ form>.form-field{
 }
       
     }
+    
     /*===================section 3 ========================================*/
    
    .c-section3{
@@ -283,7 +284,7 @@ font-size: 24px;
 line-height: 33px;
 /* identical to box height, or 138% */
 letter-spacing: -0.03em;
-/* Color/Black */
+
 
 
 }
@@ -294,7 +295,7 @@ font-size: 16px;
 line-height: 30px;
 /* or 188% */
 letter-spacing: -0.02em;
-/* Color/Black */
+
 height:60px;
 margin:30px auto;
 

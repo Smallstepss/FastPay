@@ -1,4 +1,5 @@
 /* ======SIGN IN STYLES ======= */
+
 container__signin-container{
     align-content: center;
     
@@ -130,6 +131,7 @@ container__signin-container{
     /* ======= END OF SIGNIN STYLES ====== */
     
     /* ======SIGNUP STYLES ======= */
+
     .signup-btn{
         background-color: #044AFF;
         padding:18px 32px;

@@ -38,6 +38,7 @@
    }
    
    /* ======Media query for small and medium screens======= */
+   
    @media screen and (max-width: 1024px) {
    
    .cta__container{
