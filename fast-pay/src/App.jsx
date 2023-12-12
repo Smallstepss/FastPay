@@ -3,7 +3,7 @@ import SignIn, { SignUp } from "./components/Authentication"
 import AboutUs from "./pages/aboutUs/AboutUs"
 import ContactUs from "./pages/contactUs/ContactUs"
 import OurSolution from "./pages/ourSolution/OurSolution"
-import Resources from "./pages/resources/Resources"
+import FAQS from "./pages/FAQS/FAQS"
 import ErrorPage from "./pages/ErrorPage"
 
 
@@ -15,7 +15,7 @@ const App = () => {
       <Route path="/" element={<OurSolution />} />
       <Route path="/ContactUs" element={<ContactUs />} />
       <Route path="/AboutUs" element={<AboutUs />} />
-      <Route path="/Resources" element={<Resources />} />
+      <Route path="/FAQS" element={<FAQS />} />
       <Route path="*" element={<ErrorPage />} />
     
     </Routes>

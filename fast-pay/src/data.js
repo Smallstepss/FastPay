@@ -14,7 +14,7 @@ export const links = [
   },
   { id: 2, name: "About us", path: "/AboutUs" },
   { id: 3, name: "Contact us", path: "/contactUs" },
-  { id: 4, name: "Resources", path: "/resources" }
+  { id: 4, name: "FAQS", path: "/FAQS" }
 ];
 
 export const ValueCards = [

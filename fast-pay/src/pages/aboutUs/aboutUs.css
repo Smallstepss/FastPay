@@ -139,6 +139,15 @@ aspect-ratio:547.525/657.625;
 }
 
 }
+ 
+@media screen and (max-width:1240px) {
+    .gallery-wrapper{
+        margin-top: 160px;
+          }
+    .story_container{
+        gap:4%;
+    }
+}
 @media screen and (max-width:940px) {
     .story_container{
         display:block;
@@ -155,14 +164,16 @@ aspect-ratio:547.525/657.625;
     }
     */
 
-}   
-@media screen and (max-width:1240px) {
-    .gallery-wrapper{
-        margin-top: 160px;
-          }
-    .story_container{
-        gap:4%;
+}  
+@media screen and (max-width:450px) {
+    .story_section_content{
+        margin-top:0;
     }
+
+
+.story_section_content>h1{
+font-size:48px;
+}
 }
 
 
@@ -203,6 +214,19 @@ div.section2{
     padding-left: 286px;
     
 }
+
+@media only screen and (max-width:1320px){
+    .section2 >h1 {        
+       font-size:36px; 
+        padding:10px 70px;      
+      }
+      .section2> p {         
+         font-size:20px;  
+         padding:5px 80px;  
+         margin-top:0px;     
+        }
+}
+
 @media screen and (max-width:600px) {
     .section2 h1{
         font-weight:bold;
@@ -215,16 +239,10 @@ div.section2{
     }
     
 }
-@media only screen and (max-width:1320px){
-    .section2 >h1 {        
-       font-size:36px; 
-        padding:10px 70px;      
-      }
-      .section2> p {         
-         font-size:20px;  
-         padding:5px 80px;  
-         margin-top:0px;     
-        }
+@media screen and (max-width:400px) {
+    .section2 h1{
+        font-size:32px;
+    }
 }
 
 /*section2 At small and medium screens
@@ -513,6 +531,14 @@ section5_head{
         display:none;
     }
 }
+
+@media screen and (max-width:400px){
+.section5_head h1{ 
+    font-size:32px;
+  }
+
+}
+
 .values_img{
     position:relative;   
     height:581px;

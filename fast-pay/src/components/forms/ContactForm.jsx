@@ -46,93 +46,82 @@ it helps in carrying all values from one array to another.*/}
 return (
     <div>
        <div className='form-container'>
-    <h1 className='contact-head'>Send us a message</h1>
-    <form className='contact-form' onSubmit={handleSubmit}>  
+      <h1 className='contact-head'>Send us a message</h1>
+      <form className='contact-form' onSubmit={handleSubmit}>  
          
-   {submitted && valid?<div  class="success-message">Success! Thank you for registering</div>:null}
+            {submitted && valid?<div  class="success-message">Success! Thank you for registering</div>:null}
     
     <div className='form-div'>
-<div className='form-group'>
+        <div className='form-group'>
 
-
-
-    <label htmlFor='fullName' >Full Name   </label> 
-    <input
-    onChange={handleFullNameChange}
-    id="full-name"
-      className='form-field'
-      type="text"
-      name="fullName"
-      value={values.fullName}
-     
-    />
-    {submitted && !values.fullName ?   <span id="full-name-error">Please enter a full name</span> : null}
-    </div>
-    
+          <label htmlFor='fullName' >Full Name   </label> 
+          <input
+                onChange={handleFullNameChange}
+                id="full-name"
+                className='form-field'
+                type="text"
+                name="fullName"
+                value={values.fullName}  
+          />
+            {submitted && !values.fullName ?   <span id="full-name-error">Please enter a full name</span> : null}
+    </div>    
    
     <div className='form-group'>
 
-    
      <label htmlFor='email' >Email   </label> 
-     <input
-     onChange={handleEmailChange}
-     id="email"
-      className='form-field'
-      type="text"
-      name="email"  
-      value={values.email}    
-    />
-   {submitted && !values.email ? <span id="email-error">Please enter an email address</span> : null}
+        <input
+              onChange={handleEmailChange}
+              id="email"
+              className='form-field'
+              type="text"
+              name="email"  
+              value={values.email}    
+        />
+            {submitted && !values.email ? <span id="email-error">Please enter an email address</span> : null}
 
-       
     </div>
     </div>
     <div className='form-div'>
-    <div className='form-group'>
+        <div className='form-group'>
     
-    <label htmlFor='phonenumber' >Phone Number</label> 
-     <input
-     onChange={handlePhoneNumberChange}
-     id="phone-num"
-      className='form-field'
-      type="number"
-      name="phonenumber"  
-      value={values.phoneNumber}    
-    />
-    {submitted && !values.phoneNumber ?<span id="phone-num-error">Please enter a phone number</span>: null}
+          <label htmlFor='phonenumber' >Phone Number</label> 
+          <input
+              onChange={handlePhoneNumberChange}
+              id="phone-num"
+              className='form-field'
+              type="number"
+              name="phonenumber"  
+              value={values.phoneNumber}    
+          />
+      {submitted && !values.phoneNumber ?<span id="phone-num-error">Please enter a phone number</span>: null}
     </div>
   
-    <div className='form-group'>
+        <div className='form-group'>
      
-    <label htmlFor='companyName' >Company Name</label> 
-     <input
-     onChange={handleCompanyNameChange}
-     id="company-name"
-      className='form-field'
-      type="text"
-      name="companyName"   
-      value={values.companyName}   
-    />
+        <label htmlFor='companyName' >Company Name</label> 
+          <input
+              onChange={handleCompanyNameChange}
+              id="company-name"
+              className='form-field'
+              type="text"
+              name="companyName"   
+              value={values.companyName}   
+          />
      {submitted && !values.companyName ?<span id="company-name-error">Please enter a company name</span>: null}
   
     </div>
-    </div>    
+  </div>    
     
-    <div class="form-group">
+  <div class="form-group">
    
     <label htmlFor='message' >Message</label> 
-      <textarea 
-      onChange={handleMessageChange} id="msg-box" className="form-field" name="message" rows="10" required></textarea>
-       {submitted && !values.message ?<span id="message-error">Please enter a Message</span>: null}
-    </div>
+       <textarea 
+          onChange={handleMessageChange} id="msg-box" className="form-field" name="message" rows="10" required></textarea>
+          {submitted && !values.message ?<span id="message-error">Please enter a Message</span>: null}
+  </div>
    
-      <button 
-      
-      className='form-field' 
-      type="submit"
-      >
-       Send
-      </button>
+      <button   className='form-field-button' type="submit">      Send      </button>
+    
     </form>
 
     </div>

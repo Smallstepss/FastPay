@@ -26,6 +26,9 @@ nav {
    font-size: 32px;
    color:#044AFF;
 }
+h1{
+    margin-bottom:50px;
+}
 
 .nav__links {
     display: flex;  
