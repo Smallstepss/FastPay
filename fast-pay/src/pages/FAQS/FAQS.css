@@ -75,7 +75,7 @@ margin-top:30px;
 
 
 @media screen and (max-width:950px){
-h1{
+    .FAQ-header>h1{
     font-size:32px;
 }
 p{
@@ -108,12 +108,4 @@ font-size:.75rem;
 }
     
 }
-@media screen and (max-width:350px){
-    
 
-    
-}
-@media screen and (max-width:400px){
-
-    
-}

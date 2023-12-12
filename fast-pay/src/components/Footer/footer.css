@@ -114,3 +114,10 @@ margin-bottom: 80px;
 }  
 
 }
+
+@media screen and (max-width: 300px) {
+    .footer__info-col h2{
+        font-size:1.5em;
+    }
+    
+    }

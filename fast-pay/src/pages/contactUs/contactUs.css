@@ -91,7 +91,7 @@ margin-bottom:16px;
 }
 @media screen and (max-width:400px) {
 .c-hero__body{
-  padding-top:50px;
+  padding-top:80px;
 }
 .c-head{
   font-size:32px;
@@ -99,6 +99,17 @@ margin-bottom:16px;
 .c-para{
   font-size:16px;
 }
+}
+@media screen and (max-width:300px) {
+  .c-head{
+    padding-top:30px;
+  }
+  .cards_contactCard p{
+    font-size:1.5rem;
+  }
+  .cards_contactCard {
+    padding:20px 10px;
+  }
 }
 
 /* *************SECTION2****************** */
@@ -250,7 +261,8 @@ margin-bottom:16px;
       }
 
     }
-        @media screen and (max-width:600px){
+       
+    @media screen and (max-width:600px){
 label,input{
   width:100%;
   
@@ -281,8 +293,22 @@ form> .form-field-button{
 }
       
     }
-    @media screen and (max-width:600px){
+    @media screen and (max-width:500px){
       .contact-form{margin:0;}
+    }
+    @media screen and (max-width:300px){
+      .form-group>input{
+        width:200px;
+      }
+      #msg-box{
+        width:200px;
+      }
+      form> .form-field-button{
+        width:200px;
+      }
+      .c-container{
+        margin:0 20px;
+      }
     }
    
     
@@ -396,4 +422,15 @@ font-size:20px;
 font-size:14px;
     }
 
+}
+
+
+@media screen and (max-width:300px) {
+.c-c-container {
+    margin:20px;
+}
+.contact-form 
+{
+padding:20px 20px;
+}
 }
