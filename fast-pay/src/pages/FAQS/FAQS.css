@@ -1,6 +1,4 @@
-.FAQ-section{
 
-}
 
 .FAQ-container{
     margin-left:80px;
@@ -31,7 +29,7 @@ line-height: normal;
     color: var(--color-neutral-black, #000);
 text-align: center;
 
-/* Typography / Headline / Small */
+/* Typography ,Headline, Small */
 font-family: Poppins;
 font-size: 24px;
 font-style: normal;
@@ -62,7 +60,7 @@ margin-top:30px;
 .question{
     color: var(--color-black, #000);
 
-    /* Typography / Headline / Medium */
+    /* Typography , Headline , Medium */
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;

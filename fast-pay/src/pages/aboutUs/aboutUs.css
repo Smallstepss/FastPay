@@ -245,50 +245,6 @@ div.section2{
     }
 }
 
-/*section2 At small and medium screens
-
-
-
-@media only screen and (max-width:1320px){
-    .section2 >h1 {        
-        font-size:35px;       
-      }
-      .section2> p {         
-         font-size:20px;         
-        }
-}
-@media only screen and (max-width:1190px){
-    .section2 >h1 {   
-        padding-right:75px;
-        padding-left: 75px;     
-              
-      }
-      .section2> p {         
-              padding-right:100px;
-              padding-left:100px; 
-        }
-}
-@media only screen and (max-width:750px){
-    div.section2{
-        margin-top:0px;
-    }
-    .section2 >h1 {   
-          font-size:24px;
-              
-      }
-      .section2> p {         
-            font-size:16px; 
-           
-           font-size:58%;
-            padding-left: 50px;
-            padding-right: 50px;
-             
-        }
-}
-
-
-*/
-
 /*****************section3****************/
 .w_section
 {
